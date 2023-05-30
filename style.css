@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* headder part start */
+img{
+    width: 100%;
+}
+.nav{
+    width:100%; 
+    height: 85px;
+}
+ .wrapper{
+    position: fixed;
+    background-color: #fff;
+    width:100%;
+    height: 85px;
+    
+    display: flex;
+
+    justify-content: space-between;
+    box-shadow: rgb(33 35 38 / 26%) 0px 14px 14px -10px;
+    
+}
+
+.wrapper .logu {
+    width: 30%;
+    height: 75px;
+    text-align: center;
+    margin: 20px 150px 0px 0px;
+    float: left;
+}
+
+.loguu {
+     width: 138px;
+     margin-left: 59px;
+ }
+
+.wrapper .link-area {
+    width: 70%;
+    height: 75px;
+    margin-right: 78px;
+}
+.wrapper .link-area ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+   
+}
+.wrapper .link-area ul a{
+    display: inline-block;
+    text-decoration: none;
+    color:#0a111c;
+    margin: 29px 38px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 18px;
+   
+    transition: 1s;
+}
+.wrapper .link-area ul a:hover{
+    color: rgb(196, 36, 76);
+    
+}
+
+/* headder part end */
+
+/* section1 start */
+.about-text{
+    width:100%;
+    height: 90px;
+    text-align: center;
+
+    
+}
+.about-text h1 {
+    color: #3b506c;
+    font-size: 40px;
+    margin: 31px 0px 0px 0px;
+}
+.about-text span {
+    color: #0c66ff;
+    
+}
+
+.about-text p {
+    color: #3b506c;
+    margin: 31px 0px 0px 0px;
+    
+}
+
+
+
+/* section1 end */
+
+/* img section */
+.adout-img{
+    
+    margin: auto;
+    width: 80%;
+    
+    
+}
+
+
+.midle-area{
+    width: 100%;
+    height: 200px;
+    display: flex;
+  
+}
+.midle-area .one{
+width: 50%;
+height: 200px;
+
+text-align: right;
+padding: 25px;
+}
+.midle-area .one h1 {
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+}
+.midle-area .one p {
+    color:#3b506c;
+    font-size: 18px;
+    margin: 27px 0px 0px 0px;
+}
+
+
+.midle-area .two {
+    width: 50%;
+    height: 200px;
+   
+    padding: 25px;
+}
+
+.midle-area .two h1 {
+    color: #3b506c;
+    font-size: 34px;
+}
+.card-section{
+    width: 100%;
+    height: 546px;
+    margin-left: 10px;
+    display: flex;
+    
+   
+    
+}
+.card-section .kk {
+    margin: 16px;
+    padding: 17px;
+   
+}
+
+.card-section .three {
+    width: 30%;
+    height: 504px;
+    background-color: bisque;
+   
+    border-radius: 6px;
+    margin: 0px 20px 0px 13px;
+    transition: 1.5s;
+}
+.card-section .three  img{
+width: 100%;
+}
+.card-section .three h3 {
+    color: rgb(15, 3, 3);
+    padding: 14px;
+    font-size: 25px;
+}
+.card-section .three:hover{
+    background-color: rgba(28, 28, 135, 0.797);
+}
+.card-section .four {
+    width: 30%;
+    height: 504px;
+    border-radius: 6px;
+    
+    background-color: rgb(99, 61, 12);
+    margin: 1px 8px 0px 21px;
+    display: block;
+    transition: 1.5s;
+}
+.card-section .four:hover{
+    background-color: rgba(28, 28, 135, 0.797);
+}
+.card-section .four  img{
+    width: 100%;
+    }
+    .card-section .four h3 {
+        color: rgb(15, 3, 3);
+        padding: 14px;
+        font-size: 25px;
+    }
+.card-section .five{
+    width: 30%;
+    height: 504px;
+    border-radius: 6px;
+   
+    background-color: rgba(145, 65, 128, 0.695);
+    margin: 0px 20px 0px 13px;
+    transition: 1.5s;
+    
+   
+}
+.card-section .five:hover{
+    background-color: rgba(28, 28, 135, 0.797);
+}
+.card-section .five  img{
+    width: 100%;
+    }
+    .card-section .five h3 {
+        color: rgb(15, 3, 3);
+        padding: 14px;
+        font-size: 25px;
+    }
+
+.fotter{
+    background-color: #294264b2;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.fotter .item {
+    width: 25%;
+    
+    padding: 40px;
+}
+
+.fotter .item ul{
+    list-style: none;
+}
+
+.fotter .item h3 {
+    margin-bottom: 14px;
+    font-size: 23px;
+}
+/* responsive 600px */
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    .loguu {
+        width: 100px;
+        margin-left: 33px;
+    }
+    .wrapper .logu {
+        width: 20%;
+       
+        margin: 25px 46px 0px 0px;
+       
+    }
+    .wrapper .link-area ul {
+        
+        margin-right: 113px;
+    }
+
+    .wrapper .link-area ul a {
+       
+        margin: 27px 15px 0px 0px;
+        
+    }
+
+    .about-text h1 {
+      
+        font-size: 27px;
+        
+    }
+    .midle-area {
+        width: 100%;
+        height: 400px;
+        display: block;
+        background-color: #45313840;
+        margin-bottom: 15px;
+    }
+    .midle-area .one {
+        width: 100%;
+        height: 200px;
+        text-align: right;
+        padding: 40px;
+    }
+    .midle-area .two {
+        width: 100%;
+        height: 200px;
+        text-align: right;
+        padding: 25px;
+      
+    }
+    .midle-area .two h1 {
+        color: #3a0a8d;
+        font-size: 29px;
+        text-align: center;
+    }
+   
+    
+    /* kkkkkkkkkk */
+   
+    .card-section {
+        width: 100%;
+        height: 1200px;
+       display: block;
+       margin: 0px 0px 0px 140px;
+       
+    }
+    .card-section .three{
+        width: 300px;
+        text-align: center;
+    }
+    .card-section .four{
+        width: 300px;
+        margin: 1px 4px 0px 11px;
+    }
+    .card-section .five{
+        width: 300px;
+    }
+
+
+
+    .fotter {
+       display: block;
+        margin-top: 72px;
+        width: 100%;
+        height: auto;
+        margin-top: 378px;
+    }
+    .fotter .item {
+       margin-left: 200px;
+        width: 100%;
+        height: auto;
+        
+    }
+    }
+    /* responsive 768px */
+@media only screen and (min-width: 601px) and (max-width:768px){
+    .wrapper .logu {
+        width: 30%;
+        margin: 28px 0px 0px 0px;
+        
+    }
+   
+    .loguu {
+        width: 88px;
+        margin-left: 27px;
+    }
+    .wrapper .link-area {
+        margin-right: 143px;
+    }
+    .about-text h1 {
+        font-size: 22px;
+        margin-right: 149px;
+    }
+    .wrapper .link-area ul a {
+        font-size: 14px;
+        margin: 37px 9px 0px 0px;
+        
+    }
+
+   
+    .adout-img {
+        width: 100%;
+        height: 400px;
+    }
+  .adout-img .asd{
+    width: 600px;
+    height: 400px;
+   padding: 30px;
+    
+    
+  }
+  .midle-area {
+    width: 80%;
+    
+}
+.midle-area .two h1 {
+    color: #3b506c;
+    font-size: 31px;
+}
+
+.card-section {
+    width: 100%;
+    height: 1200px;
+   display: block;
+   margin: 0px 0px 0px 140px;
+   
+}
+.card-section .three{
+    width: 300px;
+    text-align: center;
+}
+.card-section .four{
+    width: 300px;
+    margin: 1px 4px 0px 11px;
+}
+.card-section .five{
+    width: 300px;
+}
+
+
+
+
+.fotter {
+    margin-top: 385px;
+}
+.fotter .item {
+    width: 25%;
+    padding: 22px;
+}
+
+
+}
+/* responsive 1279px */
+@media only screen and (min-width: 769px) and (max-width:1200px){
+    .wrapper .link-area {
+        width: 70%;
+        height: 75px;
+        margin-right: 271px;
+    }
+    .about-text h1 {
+       
+        margin: 31px 193px 0px 0px;
+    }
+    .card-section .three {
+        width: 280px;
+        margin: 0px 5px 0px -3px;
+        
+       
+    }
+    .card-section .four {
+        width: 280px;
+       
+    }
+    .card-section .five {
+        width: 280px;
+       
+    }
+    img {
+        width: 69%;
+    }
+    .midle-area .one {
+        width: 39%;
+       
+    }
+}
+
+
+
